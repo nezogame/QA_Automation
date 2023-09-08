@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db59b77a-7283-47ce-827f-54145bfa9fa3" name="Changes" comment="gitignore was updated" />
+    <list default="true" id="db59b77a-7283-47ce-827f-54145bfa9fa3" name="Changes" comment="gitignore">
+      <change beforePath="$PROJECT_DIR$/lab1/src/main/java/org/denys/hudymov/AgreePrivacy.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/src/main/java/org/denys/hudymov/AgreePrivacy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/src/main/java/org/denys/hudymov/DemoWebShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/src/main/java/org/denys/hudymov/DemoWebShopTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694201693473</updated>
-      <workItem from="1694201693475" duration="1214000" />
+      <workItem from="1694201693475" duration="1614000" />
     </task>
     <task id="LOCAL-00001" summary="idea files">
       <created>1694204076638</created>
@@ -71,7 +74,56 @@
       <option name="project" value="LOCAL" />
       <updated>1694204095508</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="class that implements a Runnable interface. The class agrees with private police when going to website Pastebin">
+      <created>1694204469755</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694204469755</updated>
+    </task>
+    <task id="LOCAL-00004" summary="main class runs auto-testing">
+      <created>1694204504655</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694204504655</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Use Selenium WebDriver to open https://pastebin.com in a browser.&#10;Create a New Paste with any text; Paste Expiration: 10 minutes; any title.">
+      <created>1694204630110</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694204630110</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Use Selenium WebDriver to open http://demowebshop.tricentis.com/ in a browser.  Select the menu item 'Computers/Desktops', select sort by price, View as List, select the first product and add it to the cart. Add to cart still in development">
+      <created>1694204739660</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694204739660</updated>
+    </task>
+    <task id="LOCAL-00007" summary="pom.xml">
+      <created>1694204751336</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1694204751336</updated>
+    </task>
+    <task id="LOCAL-00008" summary="idea">
+      <created>1694204756622</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694204756622</updated>
+    </task>
+    <task id="LOCAL-00009" summary="gitignore">
+      <created>1694204770142</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1694204770142</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,6 +132,13 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="idea files" />
     <MESSAGE value="gitignore was updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore was updated" />
+    <MESSAGE value="class that implements a Runnable interface. The class agrees with private police when going to website Pastebin" />
+    <MESSAGE value="main class runs auto-testing" />
+    <MESSAGE value="Use Selenium WebDriver to open https://pastebin.com in a browser.&#10;Create a New Paste with any text; Paste Expiration: 10 minutes; any title." />
+    <MESSAGE value="Use Selenium WebDriver to open http://demowebshop.tricentis.com/ in a browser.  Select the menu item 'Computers/Desktops', select sort by price, View as List, select the first product and add it to the cart. Add to cart still in development" />
+    <MESSAGE value="pom.xml" />
+    <MESSAGE value="idea" />
+    <MESSAGE value="gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
   </component>
 </project>
