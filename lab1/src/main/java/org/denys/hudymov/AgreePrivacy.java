@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 import static java.lang.Thread.sleep;
 
 public class AgreePrivacy implements Runnable{
-    private WebDriver chromeDriver;
+    private final WebDriver chromeDriver;
     private final Object lock;
 
     public AgreePrivacy(WebDriver chromeDriver, Object lock) {
