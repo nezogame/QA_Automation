@@ -2,13 +2,16 @@ package org.denys.hudymov;
 
 import lombok.*;
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
+import java.util.List;
 import java.util.Objects;
+import java.util.Optional;
 
 @Getter
 @Setter
@@ -41,20 +44,45 @@ public class DemoWebShopTest {
         viewSelect.selectByVisibleText("List");
 
         var elementComputers = chromeDriver.findElements(By.className("item-box"));
-        WebElement element = elementComputers.get(0).findElement(By.cssSelector("input[type='button']"));
-        var elementComputer = elementComputers.stream()
-                .map(e->e.findElement(By.cssSelector("input[type='button']")))
-                .filter(Objects::nonNull)
-                .toList();
-        //elementComputer.orElseThrow().findElement(By.className("buttons"));
-        //act.moveToElement(elementComputer.orElseThrow()).click().build().perform();
+        var elementComputer = findFirstElementWithButton(elementComputers).orElseThrow();
 
-        // Click create button
-        /*var createButton = chromeDriver.findElement(By.className("btn -big"));
-        act.moveToElement(createButton).click().build().perform();*/
+
+        act.moveToElement(elementComputer)
+                .click()
+                .moveToElement(chromeDriver.findElement(By.xpath("//input[@value='Add to cart']")))
+                .pause(2000).build()
+                .perform();
+
+        act.moveToElement(chromeDriver.findElement(By.xpath("//input[@value='Add to cart']")))
+                .click()
+                .pause(2000)
+                .build()
+                .perform();
+
+        act.moveToElement(chromeDriver.findElement(By.xpath("//a[@href ='/cart']")))
+                .click()
+                .build()
+                .perform();
     }
 
-    private WebElement findElement(){
-        return null;
+    /**
+     * This method is used to find a web element from the list of web elements that have a button
+     *
+     * @param elements a list of WebElement
+     * @return first element with button
+     */
+    private Optional<WebElement> findFirstElementWithButton(List<WebElement> elements){
+        return elements.stream()
+                .map(e->
+                {
+                    try {
+                        return e.findElement(By.cssSelector("input[type='button']"));
+                    }catch (NoSuchElementException noSuchElementException){
+                        return null;
+                    }
+                })
+                .filter(Objects::nonNull)
+                .findFirst();
+
     }
 }
