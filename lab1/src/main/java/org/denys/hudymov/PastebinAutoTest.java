@@ -35,7 +35,11 @@ public class PastebinAutoTest {
 
         Actions act = new Actions(chromeDriver);
         var elementPasteText = chromeDriver.findElement(By.id("postform-text"));
-        act.moveToElement(elementPasteText).click().sendKeys("Text text text text more text").build().perform();
+        act.moveToElement(elementPasteText)
+                .click()
+                .sendKeys("Text text text text more text")
+                .build()
+                .perform();
 
         var dropdownElement = chromeDriver.findElement(By
                 .xpath("//*[@id=\"select2-postform-expiration-container\"]"));
@@ -44,7 +48,10 @@ public class PastebinAutoTest {
         option10Minutes.click();
 
         var elementTitle = chromeDriver.findElement(By.id("postform-name"));
-        act.moveToElement(elementTitle).click().sendKeys("Title Title more Title").build().perform();
+        act.moveToElement(elementTitle)
+                .click()
+                .sendKeys("Title Title more Title")
+                .build().perform();
 
         // Click create button
         /*var createButton = chromeDriver.findElement(By.className("btn -big"));
