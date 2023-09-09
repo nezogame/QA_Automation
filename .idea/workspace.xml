@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db59b77a-7283-47ce-827f-54145bfa9fa3" name="Changes" comment="gitignore">
-      <change beforePath="$PROJECT_DIR$/lab1/src/main/java/org/denys/hudymov/AgreePrivacy.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/src/main/java/org/denys/hudymov/AgreePrivacy.java" afterDir="false" />
+    <list default="true" id="db59b77a-7283-47ce-827f-54145bfa9fa3" name="Changes" comment=" In PastebinAutoTest class was rewritten calling an actions method in a readable way">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/src/main/java/org/denys/hudymov/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/src/test/java/org/denys/hudymov/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/src/main/java/org/denys/hudymov/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/src/main/java/org/denys/hudymov/StartTesting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab1/src/main/java/org/denys/hudymov/DemoWebShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/src/main/java/org/denys/hudymov/DemoWebShopTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +50,9 @@
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Denys/My learning/3_Course/QA_Automation/lab1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -50,6 +64,27 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="StartTesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.denys.hudymov.StartTesting" />
+      <module name="lab1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.denys.hudymov.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StartTesting" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,7 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694201693473</updated>
-      <workItem from="1694201693475" duration="1614000" />
+      <workItem from="1694201693475" duration="9196000" />
     </task>
     <task id="LOCAL-00001" summary="idea files">
       <created>1694204076638</created>
@@ -123,7 +158,21 @@
       <option name="project" value="LOCAL" />
       <updated>1694204770142</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="unused imports was removed">
+      <created>1694204893305</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1694204893305</updated>
+    </task>
+    <task id="LOCAL-00011" summary=" In PastebinAutoTest class was rewritten calling an actions method in a readable way">
+      <created>1694249873668</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1694249873668</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +188,16 @@
     <MESSAGE value="pom.xml" />
     <MESSAGE value="idea" />
     <MESSAGE value="gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+    <MESSAGE value="unused imports was removed" />
+    <MESSAGE value=" In PastebinAutoTest class was rewritten calling an actions method in a readable way" />
+    <option name="LAST_COMMIT_MESSAGE" value=" In PastebinAutoTest class was rewritten calling an actions method in a readable way" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="elements.stream()                 .map(e-&gt;                 {                     try {                         return e.findElement(By.cssSelector(&quot;input[type='button']&quot;));                     }catch (NoSuchElementException noSuchElementException){                         return null;                     }                 })" language="JAVA" />
+        <watch expression="findFirstElementWithButton(elementComputers)" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
