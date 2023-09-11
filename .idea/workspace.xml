@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db59b77a-7283-47ce-827f-54145bfa9fa3" name="Changes" comment=" In PastebinAutoTest class was rewritten calling an actions method in a readable way">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="db59b77a-7283-47ce-827f-54145bfa9fa3" name="Changes" comment="idea file">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lab2/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lab2/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lab2/.idea/encodings.xml" afterDir="false" />
@@ -15,15 +14,22 @@
       <change afterPath="$PROJECT_DIR$/lab2/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lab2/src/main/java/org/denys/hudymov/App.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lab2/src/test/java/org/denys/hudymov/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/src/main/java/org/denys/hudymov/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/src/main/java/org/denys/hudymov/StartTesting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/src/main/java/org/denys/hudymov/DemoWebShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/src/main/java/org/denys/hudymov/DemoWebShopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/src/main/java/org/denys/hudymov/DemoWebShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/src/main/java/org/denys/hudymov/DemoWebShopAutoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/src/main/java/org/denys/hudymov/StartTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/src/main/java/org/denys/hudymov/StartTesting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,6 +58,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "last_opened_file_path": "C:/Users/Denys/My learning/3_Course/QA_Automation/lab1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -64,14 +72,22 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.denys.hudymov" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.DemoWebShopTest">
     <configuration name="StartTesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.denys.hudymov.StartTesting" />
       <module name="lab1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.denys.hudymov.*" />
+          <option name="PATTERN" value="org.denys.hudymov.DemoWebShopAutoTest" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,8 +95,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DemoWebShopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.denys.hudymov.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.denys.hudymov" />
+      <option name="MAIN_CLASS_NAME" value="org.denys.hudymov.DemoWebShopTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DemoWebShopTest" />
         <item itemvalue="Application.StartTesting" />
       </list>
     </recent_temporary>
@@ -93,7 +125,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694201693473</updated>
-      <workItem from="1694201693475" duration="9196000" />
+      <workItem from="1694201693475" duration="12151000" />
+      <workItem from="1694376796998" duration="1867000" />
+      <workItem from="1694421640476" duration="5170000" />
     </task>
     <task id="LOCAL-00001" summary="idea files">
       <created>1694204076638</created>
@@ -172,14 +206,55 @@
       <option name="project" value="LOCAL" />
       <updated>1694249873668</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="idea files">
+      <created>1694257719886</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1694257719886</updated>
+    </task>
+    <task id="LOCAL-00013" summary="web driver field was done 'final'">
+      <created>1694257867173</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1694257867173</updated>
+    </task>
+    <task id="LOCAL-00014" summary="was added method with JavaDoc comment, and all needed task in the second point of the assignment was done">
+      <created>1694258153597</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1694258153597</updated>
+    </task>
+    <task id="LOCAL-00015" summary="The first part of the task was uncommented">
+      <created>1694258303405</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1694258303405</updated>
+    </task>
+    <task id="LOCAL-00016" summary="idea file">
+      <created>1694258323729</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1694258323729</updated>
+    </task>
+    <task id="LOCAL-00017" summary="idea file">
+      <created>1694258328833</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1694258328833</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="idea files" />
     <MESSAGE value="gitignore was updated" />
     <MESSAGE value="class that implements a Runnable interface. The class agrees with private police when going to website Pastebin" />
     <MESSAGE value="main class runs auto-testing" />
@@ -190,9 +265,23 @@
     <MESSAGE value="gitignore" />
     <MESSAGE value="unused imports was removed" />
     <MESSAGE value=" In PastebinAutoTest class was rewritten calling an actions method in a readable way" />
-    <option name="LAST_COMMIT_MESSAGE" value=" In PastebinAutoTest class was rewritten calling an actions method in a readable way" />
+    <MESSAGE value="idea files" />
+    <MESSAGE value="web driver field was done 'final'" />
+    <MESSAGE value="was added method with JavaDoc comment, and all needed task in the second point of the assignment was done" />
+    <MESSAGE value="The first part of the task was uncommented" />
+    <MESSAGE value="idea file" />
+    <option name="LAST_COMMIT_MESSAGE" value="idea file" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab1/src/main/java/org/denys/hudymov/DemoWebShopAutoTest.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="elements.stream()                 .map(e-&gt;                 {                     try {                         return e.findElement(By.cssSelector(&quot;input[type='button']&quot;));                     }catch (NoSuchElementException noSuchElementException){                         return null;                     }                 })" language="JAVA" />
