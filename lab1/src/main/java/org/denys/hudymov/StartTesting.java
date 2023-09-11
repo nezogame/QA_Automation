@@ -6,8 +6,8 @@ public class StartTesting
     public static void main( String[] args )
     {
         PastebinAutoTest pastebinAutoTest= new PastebinAutoTest();
-        DemoWebShopTest demoWebShopTest= new DemoWebShopTest();
+        DemoWebShopAutoTest demoWebShopAutoTest = new DemoWebShopAutoTest();
         pastebinAutoTest.startTest();
-        demoWebShopTest.startTest();
+        demoWebShopAutoTest.startTest();
     }
 }
