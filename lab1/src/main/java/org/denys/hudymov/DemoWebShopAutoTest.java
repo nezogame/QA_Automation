@@ -18,10 +18,11 @@ import java.util.Optional;
 @ToString
 @EqualsAndHashCode
 @AllArgsConstructor
-public class DemoWebShopTest {
+public class DemoWebShopAutoTest {
     private WebDriver chromeDriver;
+    private String product;
 
-    public DemoWebShopTest() {
+    public DemoWebShopAutoTest() {
         this.chromeDriver = new ChromeDriver();
     }
 
@@ -58,6 +59,8 @@ public class DemoWebShopTest {
                 .pause(2000)
                 .build()
                 .perform();
+
+        setProduct(chromeDriver.findElement(By.xpath("//h1[@itemprop ='name']")).getText());
 
         act.moveToElement(chromeDriver.findElement(By.xpath("//a[@href ='/cart']")))
                 .click()
