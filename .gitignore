@@ -18,6 +18,7 @@
 *.zip
 *.tar.gz
 *.rar
+*.dock
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
@@ -28,9 +29,13 @@ replay_pid*
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
+*/target/
+*/.idea/
 *.iws
 *.iml
 *.ipr
+*.docx
+.idea/
 
 ### Eclipse ###
 .apt_generated
